@@ -1,0 +1,36 @@
+# Build output
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+
+# Rider or VS Code
+.idea/
+.vscode/
+*.code-workspace
+
+# Secrets / certs
+*.pfx
+*.pem
+*.key
+
+# Logs
+*.log
+
+# ASP.NET dev SSL files
+**/Properties/launchSettings.json
+
+# Coverage
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Temporary
+*.tmp
