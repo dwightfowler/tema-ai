@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <AspNetCoreEnvironment>Development</AspNetCoreEnvironment>
+    <DOTNET_ENVIRONMENT>Development</DOTNET_ENVIRONMENT>
+    <LaunchProfile>https</LaunchProfile> <!-- or "http" -->
+  </PropertyGroup>
+
 </Project>
